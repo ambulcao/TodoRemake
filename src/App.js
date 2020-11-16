@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
+import Form from './components/Form';
+import TodoList from './components/TodoList';
+
 function App() {
+  const [inputText, setInputText] = useState("");
   return (
     <div className="App">
-      <h1>Hello react</h1>
+      <header>
+        <h1>Bulcao Todo List</h1>
+      </header>
+      <Form/>
+      <TodoList />
     </div>
   );
 }
