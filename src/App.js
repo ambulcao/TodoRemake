@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Star Wars TodoList</h1>
+        <h1>My TodoList</h1>
       </header>      
       <Form 
         inputText={inputText} 
@@ -18,7 +18,7 @@ function App() {
         setTodos={setTodos} 
         setInputText={setInputText}
       />
-      <TodoList />
+      <TodoList setTodos={setTodos} todos={todos} />
     </div>
   );
 }
