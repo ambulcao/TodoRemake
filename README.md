@@ -1,15 +1,34 @@
-# Getting Started with Create React App
+## :rocket: Tecnologias Utilizadas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [ReactJS](https://reactjs.org/)
 
 ## Available Scripts
 
-https://github.com/ambulcao/TodoRemake/blob/main/src/images/ToDoList.png
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="1200px" src="https://github.com/ambulcao/TodoRemake/blob/main/src/images/ToDoList.png">
+    <br>
+</h3>
 
-### `npm start`
+## :bookmark: Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O <strong>To-Do List</strong> aplicação web para lista de tarefas.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :fire: Como utilizar
+
+### :exclamation: Instalação - Front-End (Aplicação Web)
+Para iniciar o **Frontend** do React utilize os comandos:
+```bash
+yarn install // npm install
+yarn start // npm start
+```
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<h4 align="center">
+    Feito com 💜 por <a href="https://www.linkedin.com/in/alexandre-bulcao" target="_blank">Alexandre Bulcão</a>
+</h4>
