@@ -18,6 +18,8 @@ const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
     };
     return(
         <form>
+        
+            
             <input 
                 value={inputText} 
                 onChange={inputTextHandler} 
@@ -34,6 +36,8 @@ const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
                     <option value="uncompleted">Uncompleted</option>
                 </select>
             </div>
+            
+       
         </form>
     );
 };
